@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+th, td{
+    border: 1px solid #a79999;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+.api_images{
+    width: 50px;
+    transition: transform  0.3s ease;
+    object-fit: cover;
+}
+
+.api_images:hover{
+    transform: scale(2);
+}
