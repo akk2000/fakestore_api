@@ -27,4 +27,21 @@ tr:nth-child(even){
     transform: scale(2);
 }
 
-/* ပြင်ထားပါသည် */
+.card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card-body{
+    display: flex;
+    width: 70%;
+    box-shadow: 5px 5px 15px rgb(124, 122, 122);
+}
+
+.card-body img{
+    width: 30%;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
